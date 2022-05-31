@@ -77,11 +77,11 @@ function Agendar() {
                 <Form onSubmit={agendar}>
                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                         <Form.Label>Nombre del Cliente</Form.Label>
-                        <Form.Control value={cliente} type="text" placeholder="Por Ej: Sonia" onChange={(e) => { setCliente(e.target.value) }} />
+                        <Form.Control value={cliente} type="text" placeholder="Por Ej: Lucas" onChange={(e) => { setCliente(e.target.value) }} />
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                         <Form.Label>Número de Telefono</Form.Label>
-                        <Form.Control value={telefono} type="text" placeholder="Por Ej: 3816548834" onChange={(e) => { setTelefono(e.target.value) }} />
+                        <Form.Control value={telefono} type="text" placeholder="Por Ej: 38165678910" onChange={(e) => { setTelefono(e.target.value) }} />
                     </Form.Group>
                     <div className='row'>
                         <div className='col'>
