@@ -13,7 +13,7 @@ This project was created with React Js and Boostrap
 ### `List of Shedule's`
 
 
-**Note: **
+**Note:**
 
 This project was created with react js and boostrap also a little bit css bit
 
